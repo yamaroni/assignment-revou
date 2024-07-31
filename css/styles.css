@@ -1,1 +1,103 @@
 /* Ini CSS */
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+}
+
+.logo-icon {
+
+    background-image: url(https://picsum.photos/200);
+    height: 25px;
+    width: 50px;
+    background-size: cover;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.nav-item {
+
+    padding: 8px;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content-item {
+
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-banner-container {
+    height: 150px;
+    width: 100%;
+}
+
+.main-content-banner {
+    width: 100%;
+    height: 150px;
+}
+
+.banner-1 {
+    background-image: url(../assets/1.jpg);
+}
+
+.banner-2 {
+    background-image: url(../assets/2.jpg);
+}
+
+.banner-3 {
+    background-image: url(../assets/3.png);
+}
+
+.item-icon {
+    height: 25px;
+    width: 25px;
+
+    background-image: url(https://picsum.photos/25);
+    border-radius: 50%;
+}
+
+.main-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+button {
+    width: 75%;
+    height: 32px;
+    background-color: aliceblue;
+    border: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .main-content {
+        flex-direction: column;
+    }
+}
